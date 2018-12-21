@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Thasadith:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body{
+  width: 100%;
+}
+
+#navbar {
+  height: 30px;
+  background-color: grey;
+  font-family: "Thasadith",sans-serif;
+}
+
+#navbar p {
+  font-size: 20px;
+  display: inline;
+}
+
+#navbar ul{
+  float: right; /* this actually works */
+ /* display: inline-block;*/
+  margin: 5px; 
+}
+
+#navbar ul li{
+  display: inline-block;
+  padding-right: 20px;
+}
+
+#banner {
+  background-color: black;
+  height: 300px;
+  color: yellow;
+  margin-top: 1px;
+  display: inline-block;
+  width: 100%;  
+}
+
+#banner p {
+  font-family: "Roboto",sans-serif;
+  text-transform: uppercase;
+  font-size: 75px;
+  text-align: center;
+ 
+}
+
+/* Boxes were arranged in tables for easy structuring */
+table{
+  height: 350px;
+  width: 75%;
+  margin: auto;
+}
+
+td{
+  height: 75% ;
+}
+
+/*this is for the the row of 2 orange boxes*/
+.orangeTable{
+ width : 65%;
+ margin-top: -100px; 
+}
+
+/* This defines green and orange box properties to be applied to divs */
+.greenbox{
+  background-color:rgb(164,255,215);
+  width: 50%;
+  height:50%;
+  border-radius: 25%;
+  margin-left: 25%;
+}
+
+.orangebox {
+  background-color: rgb(255,195,104);
+  width: 95%;
+  height:50%;
+}
+
+
+#textbox {
+  width: 30%;
+  font-family: "Inconsolata",monospace;
+  font-size: 14px;
+  margin: auto;
+}
+
+#bottom {
+  display: inline-flex;
+  width: 100%;
+  margin: auto;
+}
+
+#bottom img {
+  margin-right: auto;
+}
+
+/*The dark blue-ish section at the bottom of the page in the mockup*/
+
+#foot {
+  height: 150px;
+  background: rgba(58, 58, 86, 68);
+  margin-top: 30px;
+}
+
